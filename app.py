@@ -12,7 +12,7 @@ ESTADOS_PEDIDO = {
     "Sin definir": "📥 Nuevo Pedido",
     "Pendiente de autorizacion": "⏳ Nuevo Pedido",
     "Leido": "📦 Armando pedido",
-    "En Local comercial": "🛒 Pedido armado",
+    "En local comercial": "🛒 Pedido armado",
     "En espera de pedido en sucursal de transporte": "🛒 Pedido armado",
     "Se entrego al transporte": "🚚 En transporte"
 }
