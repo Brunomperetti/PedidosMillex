@@ -19,7 +19,7 @@ ESTADOS_PEDIDO = {
 
 ESTADOS_PAGO = {
     "Sin definir": "⏳ Pendiente de Pago",
-    "Pendiente: El pago se encuentra pendiente de acreditacion": "📞 Contactando cliente",
+    "Pendiente: El pago se encuentra pendiente de acreditacion": "📞 Pago Solicitado",
     "El pago fue aprobado y acreditado": "💰 Pagado",
     "El pago fue rechazado. El usuario puede intentar nuevamente": "❌ Rechazado"
 }
