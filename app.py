@@ -200,14 +200,7 @@ def main():
     columnas_existentes = [col for col in columnas_mostrar if col in df_filtrado_ordenado.columns]
     config_columnas_filtrada = {k: v for k, v in config_columnas.items() if k in columnas_existentes}
     
-    # Verificación adicional para debug
-    if 'Total' not in df_filtrado_ordenado.columns:
-        st.warning("⚠️ La columna 'Total' no se encontró en los datos. Columnas disponibles:")
-        st.write(df_filtrado_ordenado.columns.tolist())
-    else:
-        st.write("🔍 Valores de Total (ejemplos):", df_filtrado_ordenado['Total'].head(5).tolist())
-    
-    # Mostrar dataframe
+    # Mostrar dataframe (sin mensajes de depuración)
     st.dataframe(
         df_filtrado_ordenado[columnas_existentes],
         use_container_width=True,
